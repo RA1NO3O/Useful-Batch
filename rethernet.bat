@@ -1,2 +1,3 @@
-netsh interface set interface name="以太网" admin=DISABLED
-netsh interface set interface name="以太网" admin=ENABLED
+@echo off
+netsh interface set interface name="ETHERNET" admin=DISABLED
+netsh interface set interface name="ETHERNET" admin=ENABLED
